@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 3
+Sheet 2 4
 Title ""
 Date ""
 Rev ""
@@ -87,7 +87,7 @@ U 1 1 5C6E2635
 P 3050 4200
 F 0 "Y1" V 3004 4441 50  0000 L CNN
 F 1 "Crystal_GND24" V 3450 4200 50  0000 L CNN
-F 2 "Crystals:Crystal_SMD_3225-4pin_3.2x2.5mm" H 3050 4200 50  0001 C CNN
+F 2 "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm" H 3050 4200 50  0001 C CNN
 F 3 "~" H 3050 4200 50  0001 C CNN
 	1    3050 4200
 	0    1    1    0   
