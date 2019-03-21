@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 5
+Sheet 5 10
 Title ""
 Date "2019-03-16"
 Rev ""
@@ -699,7 +699,7 @@ AR Path="/5C80E9D1/5C94EF13" Ref="R29"  Part="1"
 AR Path="/5C8128A2/5C96EC24/5C94EF13" Ref="R4"  Part="1" 
 F 0 "R4" V 4254 5300 50  0000 C CNN
 F 1 "R_Small" V 4345 5300 50  0000 C CNN
-F 2 "" H 4450 5300 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 4450 5300 50  0001 C CNN
 F 3 "~" H 4450 5300 50  0001 C CNN
 	1    4450 5300
 	0    1    1    0   

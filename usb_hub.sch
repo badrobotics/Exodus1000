@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 5
+Sheet 4 10
 Title ""
 Date ""
 Rev ""
@@ -1138,8 +1138,6 @@ Text Label 5550 4950 1    50   ~ 0
 DP3
 Wire Wire Line
 	6250 3650 6550 3650
-Wire Wire Line
-	6300 3750 6550 3750
 Text Label 6550 3650 2    50   ~ 0
 DP5
 Text Label 6550 3750 2    50   ~ 0
@@ -1164,4 +1162,6 @@ Text Label 8150 5450 0    50   ~ 0
 DP5
 Text Label 8150 6000 0    50   ~ 0
 DM5
+Wire Wire Line
+	6250 3750 6550 3750
 $EndSCHEMATC

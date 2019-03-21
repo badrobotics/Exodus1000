@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 5
+Sheet 2 10
 Title ""
 Date "2019-03-16"
 Rev ""
@@ -484,12 +484,12 @@ JTAG_TDI
 Text HLabel 3900 6050 0    50   Input ~ 0
 JTAG_TDO
 Wire Wire Line
-	6650 4050 7000 4050
+	6650 4050 6900 4050
 Wire Wire Line
-	6650 4150 7000 4150
-Text HLabel 7000 4050 2    50   Input ~ 0
+	6650 4150 6900 4150
+Text HLabel 6900 4050 2    50   Input ~ 0
 USB_D_N
-Text HLabel 7000 4150 2    50   Input ~ 0
+Text HLabel 6900 4150 2    50   Input ~ 0
 USB_D_P
 Wire Wire Line
 	4250 5150 3900 5150
@@ -577,4 +577,106 @@ Wire Wire Line
 	2350 2400 2350 2350
 Wire Wire Line
 	2350 2650 2350 2600
+Text HLabel 6900 5550 2    50   Input ~ 0
+EPIOS0
+Text HLabel 6900 5450 2    50   Input ~ 0
+EPIOS1
+Text HLabel 6900 5350 2    50   Input ~ 0
+EPIOS2
+Text HLabel 6900 5250 2    50   Input ~ 0
+EPIOS3
+Text HLabel 3900 6450 0    50   Input ~ 0
+EPIOS4
+Text HLabel 3900 6350 0    50   Input ~ 0
+EPIOS5
+Text HLabel 3900 6250 0    50   Input ~ 0
+EPIOS6
+Text HLabel 3900 6150 0    50   Input ~ 0
+EPIOS7
+Text HLabel 3900 4950 0    50   Input ~ 0
+EPIOS8
+Text HLabel 3900 5050 0    50   Input ~ 0
+EPIOS9
+Text HLabel 6900 6250 2    50   Input ~ 0
+EPIOS10
+Text HLabel 6900 6350 2    50   Input ~ 0
+EPIOS11
+Text HLabel 6900 3650 2    50   Input ~ 0
+EPIOS12
+Text HLabel 6900 3750 2    50   Input ~ 0
+EPIOS13
+Text HLabel 6900 3850 2    50   Input ~ 0
+EPIOS14
+Text HLabel 6900 3950 2    50   Input ~ 0
+EPIOS15
+Text HLabel 6900 4750 2    50   Input ~ 0
+EPIOS16
+Text HLabel 6900 4650 2    50   Input ~ 0
+EPIOS17
+Text HLabel 6900 4550 2    50   Input ~ 0
+EPIOS18
+Text HLabel 6900 4450 2    50   Input ~ 0
+EPIOS19
+Wire Wire Line
+	6900 5550 6650 5550
+Wire Wire Line
+	6900 5450 6650 5450
+Wire Wire Line
+	6900 5350 6650 5350
+Wire Wire Line
+	6900 5250 6650 5250
+Wire Wire Line
+	3900 6450 4250 6450
+Wire Wire Line
+	6900 6250 6650 6250
+Wire Wire Line
+	6900 6350 6650 6350
+Wire Wire Line
+	6900 3650 6650 3650
+Wire Wire Line
+	6900 3750 6650 3750
+Wire Wire Line
+	6900 3850 6650 3850
+Wire Wire Line
+	6900 3950 6650 3950
+Wire Wire Line
+	6900 4750 6650 4750
+Wire Wire Line
+	6900 4650 6650 4650
+Wire Wire Line
+	6900 4550 6650 4550
+Wire Wire Line
+	6900 4450 6650 4450
+Text HLabel 3900 5450 0    50   Input ~ 0
+EPIOS28
+Wire Wire Line
+	3900 5450 4250 5450
+Text HLabel 6900 2350 2    50   Input ~ 0
+EPIOS29
+Wire Wire Line
+	6900 2350 6650 2350
+Text HLabel 6900 2250 2    50   Input ~ 0
+EPIOS30
+Wire Wire Line
+	6900 2250 6650 2250
+Text HLabel 6900 5050 2    50   Input ~ 0
+EPIOS31
+Wire Wire Line
+	6900 5050 6650 5050
+Wire Wire Line
+	3900 6350 4250 6350
+Wire Wire Line
+	3900 6250 4250 6250
+Wire Wire Line
+	3900 6150 4250 6150
+Wire Wire Line
+	3900 4950 4250 4950
+Wire Wire Line
+	3900 5050 4250 5050
+Text HLabel 9450 1300 0    50   Input ~ 0
+~ENABLE
+Text HLabel 9450 1450 0    50   Input ~ 0
+~INHIBIT
+Text HLabel 9450 1600 0    50   Input ~ 0
+~SYSRESET
 $EndSCHEMATC
