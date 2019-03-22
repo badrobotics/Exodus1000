@@ -395,8 +395,6 @@ Wire Wire Line
 	6950 2350 6600 2350
 Wire Wire Line
 	6950 2450 6600 2450
-Text Label 6600 2350 2    50   ~ 0
-JTAG_TD0
 Text Label 6600 2450 2    50   ~ 0
 JTAG_TDO_1
 Wire Wire Line
@@ -422,7 +420,7 @@ JTAG_TDO_3
 Wire Wire Line
 	9300 4550 8950 4550
 Text Label 8950 4550 2    50   ~ 0
-JTAG_TDI
+JTAG_TDO_4
 $Comp
 L 74xx:74LS125 U6
 U 1 1 5C9B316F
@@ -533,7 +531,7 @@ Wire Wire Line
 Wire Wire Line
 	4950 4800 5150 4800
 Text Label 5150 4800 0    50   ~ 0
-JTAG_TDI
+JTAG_TDO_4
 Text Label 4200 4800 2    50   ~ 0
 JTAG_TDO_3
 Wire Wire Line
@@ -762,14 +760,16 @@ Wire Wire Line
 	5200 5600 5200 5650
 Wire Wire Line
 	4000 5650 4000 5700
+Text HLabel 2750 4100 2    50   Input ~ 0
+JTAG_TDI_MCU
+Text HLabel 6600 2350 0    50   Input ~ 0
+JTAG_TDO_MCU
+Text Label 2750 4000 0    50   ~ 0
+JTAG_TDO_4
 Text HLabel 2750 4300 2    50   Input ~ 0
 ~JTAG_TRST
 Text HLabel 2750 4200 2    50   Input ~ 0
 JTAG_TMS
-Text HLabel 2750 4100 2    50   Input ~ 0
-JTAG_TDO
-Text HLabel 2750 4000 2    50   Input ~ 0
-JTAG_TDI
 Text HLabel 2750 3900 2    50   Input ~ 0
 JTAG_TCK
 $EndSCHEMATC
