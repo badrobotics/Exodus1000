@@ -1164,4 +1164,8 @@ Text Label 8150 6000 0    50   ~ 0
 DM5
 Wire Wire Line
 	6250 3750 6550 3750
+Text Label 3600 3350 0    50   ~ 0
+DP0
+Text Label 3600 3450 0    50   ~ 0
+DM0
 $EndSCHEMATC

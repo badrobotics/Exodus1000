@@ -463,4 +463,6 @@ F 3 "" H 8650 1850 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	8650 1700 8650 1850
+Text Label 4850 4050 0    50   ~ 0
+CLK
 $EndSCHEMATC

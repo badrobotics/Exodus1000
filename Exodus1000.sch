@@ -86,17 +86,6 @@ Text Label 4900 3200 0    50   ~ 0
 JTAG_TDO
 Text Label 4900 3300 0    50   ~ 0
 JTAG_TMS
-$Comp
-L Connector_Generic:Conn_01x02 J3
-U 1 1 5C872DE6
-P 3900 4900
-F 0 "J3" H 3980 4892 50  0000 L CNN
-F 1 "Conn_01x02" H 3980 4801 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal" H 3900 4900 50  0001 C CNN
-F 3 "~" H 3900 4900 50  0001 C CNN
-	1    3900 4900
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	4100 4900 4200 4900
 Wire Wire Line
@@ -231,4 +220,57 @@ Wire Wire Line
 	4700 3750 5450 3750
 Wire Wire Line
 	4700 3850 5450 3850
+$Comp
+L Device:LED D1
+U 1 1 5CD7F8C0
+P 4550 4900
+F 0 "D1" H 4542 4645 50  0000 C CNN
+F 1 "LED" H 4542 4736 50  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 4550 4900 50  0001 C CNN
+F 3 "~" H 4550 4900 50  0001 C CNN
+	1    4550 4900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4200 4900 4400 4900
+Connection ~ 4200 4900
+$Comp
+L Device:R_Small R30
+U 1 1 5CD80817
+P 4800 5050
+F 0 "R30" H 4741 5004 50  0000 R CNN
+F 1 "R_Small" H 4741 5095 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 4800 5050 50  0001 C CNN
+F 3 "~" H 4800 5050 50  0001 C CNN
+	1    4800 5050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4700 4900 4800 4900
+Wire Wire Line
+	4800 4900 4800 4950
+$Comp
+L power:GND #PWR0184
+U 1 1 5CD81450
+P 4800 5250
+F 0 "#PWR0184" H 4800 5000 50  0001 C CNN
+F 1 "GND" H 4805 5077 50  0000 C CNN
+F 2 "" H 4800 5250 50  0001 C CNN
+F 3 "" H 4800 5250 50  0001 C CNN
+	1    4800 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 5150 4800 5250
+$Comp
+L Connector_Generic:Conn_01x02 J3
+U 1 1 5C872DE6
+P 3900 4900
+F 0 "J3" H 3980 4892 50  0000 L CNN
+F 1 "Conn_01x02" H 3980 4801 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal" H 3900 4900 50  0001 C CNN
+F 3 "~" H 3900 4900 50  0001 C CNN
+	1    3900 4900
+	-1   0    0    -1  
+$EndComp
 $EndSCHEMATC

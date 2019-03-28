@@ -720,4 +720,10 @@ Wire Wire Line
 	3950 5100 4050 5100
 Wire Wire Line
 	4350 5100 4450 5100
+Text Label 4400 4900 0    50   ~ 0
+OSC1
+Text Label 4600 5300 0    50   ~ 0
+OSC0
+Text Label 3900 5300 0    50   ~ 0
+OSC0_R
 $EndSCHEMATC

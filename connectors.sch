@@ -511,7 +511,7 @@ Wire Wire Line
 Wire Wire Line
 	4950 2800 5100 2800
 Text Label 4250 1900 2    50   ~ 0
-JTAG_TDO
+JTAG_TDO_MCU
 Text Label 5050 1900 0    50   ~ 0
 JTAG_TDO_1
 Text Label 4200 2800 2    50   ~ 0
@@ -550,14 +550,6 @@ Wire Wire Line
 	4650 5050 4650 5200
 Wire Wire Line
 	4650 5200 4550 5200
-Wire Wire Line
-	6950 3100 6750 3100
-Wire Wire Line
-	7000 5150 6800 5150
-Wire Wire Line
-	9300 5200 9100 5200
-Wire Wire Line
-	9200 3100 9000 3100
 Text Label 9000 5200 2    50   ~ 0
 BOARD_SENSE_4
 Text Label 8900 3100 2    50   ~ 0
@@ -614,70 +606,6 @@ Text Label 1850 2900 0    50   ~ 0
 D5_N
 Text Label 1850 3000 0    50   ~ 0
 D5_P
-$Comp
-L Device:R_Small R30
-U 1 1 5CA39A7F
-P 6750 3200
-F 0 "R30" H 6809 3246 50  0000 L CNN
-F 1 "R_Small" H 6809 3155 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 6750 3200 50  0001 C CNN
-F 3 "~" H 6750 3200 50  0001 C CNN
-	1    6750 3200
-	1    0    0    -1  
-$EndComp
-Connection ~ 6750 3100
-Wire Wire Line
-	6750 3100 6650 3100
-$Comp
-L Device:R_Small R31
-U 1 1 5CA39B69
-P 6800 5250
-F 0 "R31" H 6859 5296 50  0000 L CNN
-F 1 "R_Small" H 6859 5205 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 6800 5250 50  0001 C CNN
-F 3 "~" H 6800 5250 50  0001 C CNN
-	1    6800 5250
-	1    0    0    -1  
-$EndComp
-Connection ~ 6800 5150
-Wire Wire Line
-	6800 5150 6700 5150
-$Comp
-L Device:R_Small R33
-U 1 1 5CA39BDF
-P 9100 5300
-F 0 "R33" H 9159 5346 50  0000 L CNN
-F 1 "R_Small" H 9159 5255 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 9100 5300 50  0001 C CNN
-F 3 "~" H 9100 5300 50  0001 C CNN
-	1    9100 5300
-	1    0    0    -1  
-$EndComp
-Connection ~ 9100 5200
-Wire Wire Line
-	9100 5200 9000 5200
-$Comp
-L Device:R_Small R32
-U 1 1 5CA39C4D
-P 9000 3200
-F 0 "R32" H 9059 3246 50  0000 L CNN
-F 1 "R_Small" H 9059 3155 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 9000 3200 50  0001 C CNN
-F 3 "~" H 9000 3200 50  0001 C CNN
-	1    9000 3200
-	1    0    0    -1  
-$EndComp
-Connection ~ 9000 3100
-Wire Wire Line
-	9000 3100 8900 3100
-Wire Wire Line
-	6750 3300 6750 3400
-Wire Wire Line
-	9000 3300 9000 3400
-Wire Wire Line
-	9100 5400 9100 5500
-Wire Wire Line
-	6800 5350 6800 5450
 Wire Wire Line
 	1700 1000 2800 1000
 Wire Wire Line
@@ -696,50 +624,6 @@ Text Label 8850 2650 2    50   ~ 0
 ~JTAG_TRST
 Text Label 6600 2650 2    50   ~ 0
 ~JTAG_TRST
-$Comp
-L power:GND #PWR0184
-U 1 1 5CA8CBD1
-P 9000 3400
-F 0 "#PWR0184" H 9000 3150 50  0001 C CNN
-F 1 "GND" H 9005 3227 50  0000 C CNN
-F 2 "" H 9000 3400 50  0001 C CNN
-F 3 "" H 9000 3400 50  0001 C CNN
-	1    9000 3400
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0185
-U 1 1 5CA8CBFF
-P 6750 3400
-F 0 "#PWR0185" H 6750 3150 50  0001 C CNN
-F 1 "GND" H 6755 3227 50  0000 C CNN
-F 2 "" H 6750 3400 50  0001 C CNN
-F 3 "" H 6750 3400 50  0001 C CNN
-	1    6750 3400
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0186
-U 1 1 5CA8CE72
-P 6800 5450
-F 0 "#PWR0186" H 6800 5200 50  0001 C CNN
-F 1 "GND" H 6805 5277 50  0000 C CNN
-F 2 "" H 6800 5450 50  0001 C CNN
-F 3 "" H 6800 5450 50  0001 C CNN
-	1    6800 5450
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0187
-U 1 1 5CA8CE99
-P 9100 5500
-F 0 "#PWR0187" H 9100 5250 50  0001 C CNN
-F 1 "GND" H 9105 5327 50  0000 C CNN
-F 2 "" H 9100 5500 50  0001 C CNN
-F 3 "" H 9100 5500 50  0001 C CNN
-	1    9100 5500
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	9300 5100 8950 5100
 Text HLabel 8950 5100 0    50   Input ~ 0
@@ -772,4 +656,12 @@ Text HLabel 2750 4200 2    50   Input ~ 0
 JTAG_TMS
 Text HLabel 2750 3900 2    50   Input ~ 0
 JTAG_TCK
+Wire Wire Line
+	6700 5150 7000 5150
+Wire Wire Line
+	9000 5200 9300 5200
+Wire Wire Line
+	8900 3100 9200 3100
+Wire Wire Line
+	6650 3100 6950 3100
 $EndSCHEMATC
