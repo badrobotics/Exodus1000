@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 10
+Sheet 2 8
 Title ""
 Date "2019-03-16"
 Rev ""
@@ -14,32 +14,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L Exodus_Connectors:ARJ-169 J?
-U 1 1 5C812F3D
-P 1300 1500
-AR Path="/5C812F3D" Ref="J?"  Part="1" 
-AR Path="/5C8128A2/5C812F3D" Ref="J1"  Part="1" 
-F 0 "J1" H 1300 2325 50  0000 C CNN
-F 1 "ARJ-169" H 1300 2234 50  0000 C CNN
-F 2 "Exodus_Connectors:ARJ-169" H 1450 1700 50  0001 C CNN
-F 3 "" H 1450 1700 50  0001 C CNN
-	1    1300 1500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Exodus_Connectors:ARJ-169 J?
-U 2 1 5C812F44
-P 1300 2900
-AR Path="/5C812F44" Ref="J?"  Part="2" 
-AR Path="/5C8128A2/5C812F44" Ref="J1"  Part="2" 
-F 0 "J1" H 1300 3498 50  0000 C CNN
-F 1 "ARJ-169" H 1300 3407 50  0000 C CNN
-F 2 "Exodus_Connectors:ARJ-169" H 1450 3100 50  0001 C CNN
-F 3 "" H 1450 3100 50  0001 C CNN
-	2    1300 2900
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1700 5500 1350 5500
 Wire Wire Line
@@ -48,21 +22,6 @@ Text HLabel 1350 5500 0    50   Input ~ 0
 USB_OTG_N
 Text HLabel 1350 5400 0    50   Input ~ 0
 USB_OTG_P
-$Comp
-L power:GND #PWR0144
-U 1 1 5C9221D8
-P 1650 3250
-F 0 "#PWR0144" H 1650 3000 50  0001 C CNN
-F 1 "GND" H 1655 3077 50  0000 C CNN
-F 2 "" H 1650 3250 50  0001 C CNN
-F 3 "" H 1650 3250 50  0001 C CNN
-	1    1650 3250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1600 3200 1650 3200
-Wire Wire Line
-	1650 3200 1650 3250
 $Comp
 L power:GND #PWR0145
 U 1 1 5C92F187
@@ -76,89 +35,6 @@ F 3 "" H 950 4450 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	950  4350 950  4450
-Wire Wire Line
-	1700 1200 2000 1200
-Wire Wire Line
-	1700 1400 2000 1400
-Wire Wire Line
-	1700 900  2000 900 
-Wire Wire Line
-	1700 1100 2000 1100
-Text HLabel 2000 900  2    50   Input ~ 0
-TD_P
-Text HLabel 2000 1100 2    50   Input ~ 0
-TD_N
-Text HLabel 2000 1200 2    50   Input ~ 0
-RD_P
-Text HLabel 2000 1400 2    50   Input ~ 0
-RD_N
-$Comp
-L power:GND #PWR0146
-U 1 1 5C98C794
-P 1750 1550
-F 0 "#PWR0146" H 1750 1300 50  0001 C CNN
-F 1 "GND" H 1755 1377 50  0000 C CNN
-F 2 "" H 1750 1550 50  0001 C CNN
-F 3 "" H 1750 1550 50  0001 C CNN
-	1    1750 1550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1700 1500 1750 1500
-Wire Wire Line
-	1750 1500 1750 1550
-$Comp
-L Device:C_Small C17
-U 1 1 5C9AD39E
-P 2400 1450
-F 0 "C17" H 2308 1404 50  0000 R CNN
-F 1 "C_Small" H 2308 1495 50  0000 R CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 2400 1450 50  0001 C CNN
-F 3 "~" H 2400 1450 50  0001 C CNN
-	1    2400 1450
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:C_Small C18
-U 1 1 5C9AD3E7
-P 2800 1100
-F 0 "C18" H 2708 1054 50  0000 R CNN
-F 1 "C_Small" H 2708 1145 50  0000 R CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 2800 1100 50  0001 C CNN
-F 3 "~" H 2800 1100 50  0001 C CNN
-	1    2800 1100
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	1700 1300 2400 1300
-Wire Wire Line
-	2400 1300 2400 1350
-$Comp
-L power:GND #PWR0147
-U 1 1 5C9E4312
-P 2400 1600
-F 0 "#PWR0147" H 2400 1350 50  0001 C CNN
-F 1 "GND" H 2405 1427 50  0000 C CNN
-F 2 "" H 2400 1600 50  0001 C CNN
-F 3 "" H 2400 1600 50  0001 C CNN
-	1    2400 1600
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0148
-U 1 1 5C9E433E
-P 2800 1250
-F 0 "#PWR0148" H 2800 1000 50  0001 C CNN
-F 1 "GND" H 2805 1077 50  0000 C CNN
-F 2 "" H 2800 1250 50  0001 C CNN
-F 3 "" H 2800 1250 50  0001 C CNN
-	1    2800 1250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2800 1200 2800 1250
-Wire Wire Line
-	2400 1550 2400 1600
 $Comp
 L Connector:USB_B_Mini J2
 U 1 1 5C8E55A5
@@ -599,16 +475,6 @@ Wire Wire Line
 Text HLabel 8850 2900 0    50   Input ~ 0
 ~INHIBIT
 Wire Wire Line
-	1600 3000 1850 3000
-Wire Wire Line
-	1600 2900 1850 2900
-Text Label 1850 2900 0    50   ~ 0
-D5_N
-Text Label 1850 3000 0    50   ~ 0
-D5_P
-Wire Wire Line
-	1700 1000 2800 1000
-Wire Wire Line
 	6950 2650 6600 2650
 Wire Wire Line
 	9200 2650 8850 2650
@@ -665,19 +531,6 @@ Wire Wire Line
 Wire Wire Line
 	6650 3100 6950 3100
 $Comp
-L Connector:Micro_SD_Card J?
-U 1 1 5CA03CFE
-P 5900 6900
-AR Path="/5CA03CFE" Ref="J?"  Part="1" 
-AR Path="/5C8128A2/5CA03CFE" Ref="J4"  Part="1" 
-F 0 "J4" H 5850 7617 50  0000 C CNN
-F 1 "Micro_SD_Card" H 5850 7526 50  0000 C CNN
-F 2 "Connector_Card:microSD_HC_Wuerth_693072010801" H 7050 7200 50  0001 C CNN
-F 3 "http://katalog.we-online.de/em/datasheet/693072010801.pdf" H 5900 6900 50  0001 C CNN
-	1    5900 6900
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR0193
 U 1 1 5CA0F158
 P 6800 7550
@@ -692,122 +545,4 @@ Wire Wire Line
 	6700 7500 6800 7500
 Wire Wire Line
 	6800 7500 6800 7550
-Wire Wire Line
-	5000 6900 4300 6900
-Wire Wire Line
-	4300 6900 4300 6500
-Wire Wire Line
-	5000 7100 4300 7100
-Wire Wire Line
-	4300 7100 4300 7400
-$Comp
-L power:GND #PWR0194
-U 1 1 5CA2269B
-P 4300 7400
-F 0 "#PWR0194" H 4300 7150 50  0001 C CNN
-F 1 "GND" H 4305 7227 50  0000 C CNN
-F 2 "" H 4300 7400 50  0001 C CNN
-F 3 "" H 4300 7400 50  0001 C CNN
-	1    4300 7400
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3.3V #PWR0195
-U 1 1 5CA227C4
-P 4300 6500
-F 0 "#PWR0195" H 4300 6350 50  0001 C CNN
-F 1 "+3.3V" H 4315 6673 50  0000 C CNN
-F 2 "" H 4300 6500 50  0001 C CNN
-F 3 "" H 4300 6500 50  0001 C CNN
-	1    4300 6500
-	1    0    0    -1  
-$EndComp
-Text HLabel 4800 7300 0    50   Input ~ 0
-SPI_MISO
-Text HLabel 4800 7200 0    50   Input ~ 0
-SPI_MOSI
-Text HLabel 4800 6800 0    50   Input ~ 0
-SPI_SS
-Text HLabel 4800 7000 0    50   Input ~ 0
-SPI_SCLK
-Wire Wire Line
-	4800 7200 5000 7200
-Wire Wire Line
-	4800 7300 5000 7300
-Wire Wire Line
-	4800 7000 5000 7000
-Wire Wire Line
-	4800 6800 5000 6800
-Text HLabel 4800 6700 0    50   Input ~ 0
-SPI_DAT3
-Text HLabel 4800 6600 0    50   Input ~ 0
-SPI_DAT2
-Wire Wire Line
-	5000 6600 4800 6600
-Wire Wire Line
-	5000 6700 4800 6700
-Wire Wire Line
-	1700 2100 1900 2100
-$Comp
-L Device:R_Small R?
-U 1 1 5CA78235
-P 1900 2000
-F 0 "R?" V 1704 2000 50  0000 C CNN
-F 1 "R_Small" V 1795 2000 50  0000 C CNN
-F 2 "" H 1900 2000 50  0001 C CNN
-F 3 "~" H 1900 2000 50  0001 C CNN
-	1    1900 2000
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	1700 2000 1800 2000
-Wire Wire Line
-	1900 2100 1900 2150
-$Comp
-L power:GND #PWR0196
-U 1 1 5CA8211E
-P 1900 2150
-F 0 "#PWR0196" H 1900 1900 50  0001 C CNN
-F 1 "GND" H 1905 1977 50  0000 C CNN
-F 2 "" H 1900 2150 50  0001 C CNN
-F 3 "" H 1900 2150 50  0001 C CNN
-	1    1900 2150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2000 2000 2150 2000
-Text HLabel 2150 2000 2    50   Input ~ 0
-ETH_LED0
-$Comp
-L Device:R_Small R36
-U 1 1 5CA9277C
-P 1900 1800
-F 0 "R36" V 1704 1800 50  0000 C CNN
-F 1 "R_Small" V 1795 1800 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 1900 1800 50  0001 C CNN
-F 3 "~" H 1900 1800 50  0001 C CNN
-	1    1900 1800
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	1700 1800 1800 1800
-Wire Wire Line
-	2000 1800 2150 1800
-Text HLabel 2150 1800 2    50   Input ~ 0
-ETH_LED1
-$Comp
-L power:GND #PWR0197
-U 1 1 5CAA7D25
-P 2050 2150
-F 0 "#PWR0197" H 2050 1900 50  0001 C CNN
-F 1 "GND" H 2055 1977 50  0000 C CNN
-F 2 "" H 2050 2150 50  0001 C CNN
-F 3 "" H 2050 2150 50  0001 C CNN
-	1    2050 2150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2050 2150 2050 1900
-Wire Wire Line
-	1700 1900 2050 1900
 $EndSCHEMATC

@@ -679,4 +679,36 @@ Text HLabel 9450 1450 0    50   Input ~ 0
 ~INHIBIT
 Text HLabel 9450 1600 0    50   Input ~ 0
 ~SYSRESET
+Wire Wire Line
+	4250 6650 3900 6650
+Wire Wire Line
+	4250 6750 3900 6750
+Wire Wire Line
+	4250 6850 3900 6850
+Wire Wire Line
+	4250 6550 3900 6550
+Text HLabel 3900 6550 0    50   Input ~ 0
+SPI_MISO
+Text HLabel 3900 6650 0    50   Input ~ 0
+SPI_MOSI
+Text HLabel 3900 6750 0    50   Input ~ 0
+SPI_SS
+Text HLabel 3900 6850 0    50   Input ~ 0
+SPI_SCLK
+Wire Wire Line
+	4250 7150 3900 7150
+Wire Wire Line
+	4250 7250 3900 7250
+Text HLabel 3900 7150 0    50   Input ~ 0
+SPI_DAT3
+Text HLabel 3900 7250 0    50   Input ~ 0
+SPI_DAT2
+Wire Wire Line
+	6650 6450 6900 6450
+Wire Wire Line
+	6650 6850 6900 6850
+Text HLabel 6900 6850 2    50   Input ~ 0
+ETH_LED0
+Text HLabel 6900 6450 2    50   Input ~ 0
+ETH_LED1
 $EndSCHEMATC
