@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 7
+Sheet 6 7
 Title ""
 Date ""
 Rev ""
@@ -215,14 +215,14 @@ Wire Wire Line
 Wire Wire Line
 	2600 2650 2850 2650
 $Comp
-L Exodus_Connectors:ET60S-02-24-02-X-VP-GP 3
+L Exodus_Connectors:ET60S-02-24-02-X-VP-GP 31
 U 1 1 5CD0546A
 P 6300 2150
-AR Path="/5CBA042A/5CD0546A" Ref="3"  Part="1" 
-AR Path="/5CBA0410/5CD0546A" Ref="1"  Part="1" 
-AR Path="/5CBA041D/5CD0546A" Ref="2"  Part="1" 
-AR Path="/5CBA0437/5CD0546A" Ref="4"  Part="1" 
-F 0 "4" H 6828 1040 42  0000 L CNN
+AR Path="/5CBA042A/5CD0546A" Ref="31"  Part="1" 
+AR Path="/5CBA0410/5CD0546A" Ref="11"  Part="1" 
+AR Path="/5CBA041D/5CD0546A" Ref="21"  Part="1" 
+AR Path="/5CBA0437/5CD0546A" Ref="41"  Part="1" 
+F 0 "41" H 6828 1040 42  0000 L CNN
 F 1 "ET60S-02-24-02-X-VP-GP" H 6828 961 42  0000 L CNN
 F 2 "Exodus_Connectors:ET60S-02-24-02-X-VP-GP" H 6300 2150 50  0001 C CNN
 F 3 "" H 6300 2150 50  0001 C CNN
@@ -353,14 +353,14 @@ Connection ~ 4050 3700
 Wire Wire Line
 	4050 3700 4050 3800
 $Comp
-L Exodus_Connectors:ET60S-02-24-02-X-VP-GP 3
+L Exodus_Connectors:ET60S-02-24-02-X-VP-GP 31
 U 2 1 5CD08AE4
 P 4100 2500
-AR Path="/5CBA042A/5CD08AE4" Ref="3"  Part="2" 
-AR Path="/5CBA0410/5CD08AE4" Ref="1"  Part="2" 
-AR Path="/5CBA041D/5CD08AE4" Ref="2"  Part="2" 
-AR Path="/5CBA0437/5CD08AE4" Ref="4"  Part="2" 
-F 0 "4" H 4550 2747 42  0000 C CNN
+AR Path="/5CBA042A/5CD08AE4" Ref="31"  Part="2" 
+AR Path="/5CBA0410/5CD08AE4" Ref="11"  Part="2" 
+AR Path="/5CBA041D/5CD08AE4" Ref="21"  Part="2" 
+AR Path="/5CBA0437/5CD08AE4" Ref="41"  Part="2" 
+F 0 "41" H 4550 2747 42  0000 C CNN
 F 1 "ET60S-02-24-02-X-VP-GP" H 4550 2668 42  0000 C CNN
 F 2 "Exodus_Connectors:ET60S-02-24-02-X-VP-GP" H 4100 2500 50  0001 C CNN
 F 3 "" H 4100 2500 50  0001 C CNN

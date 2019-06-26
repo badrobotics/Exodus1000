@@ -1,29 +1,92 @@
-6209382455781
-Exodus_Connectors
-Anderson_PP15_1x2_RightAngle
-
-
+20232915197190
+Connector_RJ
+RJ12_Amphenol_54601
+RJ12 connector  https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/c-bmj-0082.pdf
+RJ12 connector
 0
-4
-4
-Exodus_Connectors
-ARJ-169
-
-
+6
+6
+Connector_RJ
+RJ45_Amphenol_54602-x08_Horizontal
+8 Pol Shallow Latch Connector, Modjack, RJ45 (https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/c-bmj-0102.pdf)
+RJ45
 0
-20
-20
-Exodus_Connectors
-ET60S-02-24-02-X-VP-GP
-VERTICAL SOCKET ET60 POWER ASSEM.
-
+8
+8
+Connector_RJ
+RJ45_Amphenol_RJHSE538X
+Shielded, 2 LED, https://www.amphenolcanada.com/ProductSearch/drawings/AC/RJHSE538X.pdf
+RJ45 8p8c ethernet cat5
 0
-56
-56
-Exodus_Connectors
-ET60T-02-24-02-X-RTX-GP-HS
-R/A PLUG TEN60 POWER ASSEM.
-
+14
+13
+Connector_RJ
+RJ45_Amphenol_RJHSE5380
+Shielded, https://www.amphenolcanada.com/ProductSearch/drawings/AC/RJHSE538X.pdf
+RJ45 8p8c ethernet cat5
 0
-64
-64
+10
+9
+Connector_RJ
+RJ45_Amphenol_RJHSE5380-08
+Shielded, https://www.amphenolcanada.com/ProductSearch/drawings/AC/RJHSE538X08.pdf
+RJ45 8p8c ethernet cat5
+0
+68
+65
+Connector_RJ
+RJ45_Amphenol_RJMG1BD3B8K1ANR
+1 Port RJ45 Magjack Connector Through Hole 10/100 Base-T, AutoMDIX, https://www.amphenolcanada.com/ProductSearch/Drawings/AC/RJMG1BD3B8K1ANR.PDF
+RJ45 Magjack
+0
+14
+13
+Connector_RJ
+RJ45_BEL_SS74301-00x_Vertical
+https://belfuse.com/resources/drawings/stewartconnector/dr-stw-ss-74301-001-ss-74301-002-ss-74301-005.pdf
+RJ45 Vertical Shield LED Green Yellow
+0
+14
+13
+Connector_RJ
+RJ45_Cetus_J1B1211CCD_Horizontal
+1 Port RJ45 Magjack Connector Through Hole 10/100 Base-T, Cetus, used and distributed by WIZnet (https://wizwiki.net/wiki/lib/exe/fetch.php?media=products:wiz550web:wiz550webds_kr:j1b1211ccd.pdf)
+RJ45 Magjack
+0
+14
+13
+Connector_RJ
+RJ45_Hanrun_HR911105A
+http://www.kosmodrom.com.ua/pdf/HR911105A.pdf
+RJ45 Magjack
+0
+14
+13
+Connector_RJ
+RJ45_OST_PJ012-8P8CX_Vertical
+RJ45 vertical connector http://www.on-shore.com/wp-content/uploads/2015/09/PJ012-8P8CX.pdf
+RJ45 PJ012
+0
+8
+8
+Connector_RJ
+RJ45_Plug_Metz_AJP92A8813
+plug, ethernet, 8P8C, RJ45 Plug
+AJP92A8813 8P8C RJ45 ethernet plug
+0
+8
+8
+Connector_RJ
+RJ45_Wuerth_7499010121A_Horizontal
+10/100Base-TX RJ45 ethernet magnetic transformer connector horizontal https://katalog.we-online.de/pbs/datasheet/7499010121A.pdf
+RJ45 ethernet magnetic
+0
+14
+13
+Connector_RJ
+RJ45_Wuerth_7499151120_Horizontal
+Wuerth 7499151120, LAN-Transformer WE-RJ45LAN 10/100/1000 BaseT, Dual Ethernet Jack (http://katalog.we-online.de/pbs/datasheet/7499151120.pdf)
+ethernet lan connector
+0
+32
+29
